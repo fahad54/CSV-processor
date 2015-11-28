@@ -27,7 +27,7 @@ public class WageCalculator {
 	private static final double OVERTIME_RATE_2_4 = RATE_PER_MINUTE * 1.5;
 	private static final double OVERTIME_RATE_4_16 = RATE_PER_MINUTE * 2;
 
-	private static Map<String, long[]> employeeRecord = new HashMap<String, long[]>();
+	private static final Map<String, long[]> employeeRecord = new HashMap<String, long[]>();
 	private static String tempPersonName = "";
 	private static String tempPersonId = "";
 	private static String tempDate = "";

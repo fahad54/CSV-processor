@@ -17,3 +17,4 @@ Using Java, read a CSV data file while processing the contents at the same time.
 * Clone this repository
 * To **build** the project, go to folder CSV-processor in a terminal or command prompt and type `mvn install`
 * To **run** the project, type `java -jar target/wage-calculator-1.0.jar`
+* To build **eclipse project** type `mvn eclipse:clean eclipse:eclipse`
